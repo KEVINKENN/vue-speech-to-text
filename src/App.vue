@@ -11,6 +11,6 @@ import SpeechToText from './components/SpeechToText.vue'
 <style scoped>
 .wrapper {
   width: 100%;
-  max-width: 640px;
+  max-width: 560px;
 }
 </style>

@@ -1,13 +1,26 @@
+:root {
+  --neon-cyan: #00f6ff;
+  --neon-magenta: #ff2bd6;
+  --neon-violet: #7c3aed;
+  --bg-void: #0a0118;
+  --text-muted: #9c8fc4;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-  background: #0f172a;
-  color: #e2e8f0;
+  font-family: 'Rajdhani', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  color: #f4f0ff;
   min-height: 100vh;
+  background:
+    radial-gradient(circle at 15% 10%, rgba(0, 246, 255, 0.10), transparent 40%),
+    radial-gradient(circle at 85% 25%, rgba(255, 43, 214, 0.12), transparent 45%),
+    radial-gradient(circle at 50% 100%, rgba(124, 58, 237, 0.16), transparent 55%),
+    var(--bg-void);
+  background-attachment: fixed;
 }
 
 #app {
